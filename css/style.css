@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+  text-transform: capitalize;
+  float: left;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+body{
+  margin: auto;
+  width: 960px;
+}
+
+.intro{
+  width: 100%;
+}
+
+.intro div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ddd;
+}
+
+.hero-image{
+  width: 100%;
+}
+
+/* h4{
+  
+} */
+/* .intro div h3{
+  
+} */
+
