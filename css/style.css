@@ -11,7 +11,7 @@ body{
     line-height: 2;
 }
 header {
-    display: flex;
+    display: inline;
     align-items: center;
     justify-content:space-between;
     line-height: .5;
@@ -31,20 +31,29 @@ header span{
     font-size: 10px;
     text-transform: uppercase;
 }
+nav {
+    float: right;
+}
+
+header img{
+    float: left;
+}
 .rss {
      margin-left: 10px;
  }
  .mainHeader{
+     display: inline;
     line-height: .5;
  }
  h1{
+    display: block;
      margin-bottom: 0%;
      padding-bottom: 0%;
      margin-right: auto;
      font-size: 50px;
      font-family: 'Roboto Condensed', sans-serif; }
  .underMainTitle{
-    display: flex;
+    
     align-items: center;
     justify-content:space-between;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -66,7 +75,7 @@ header span{
     }
 form{
     clear: both;
-   background: url(/img/list-bg.png); 
+   background: url(/assets/list-bg.png); 
     border: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -79,6 +88,7 @@ section form article {
     /* background: url("./img/list-bg.png"); */
 }
 hr{
+    
     height: 10px;
     background: repeating-linear-gradient(
         45deg,
@@ -99,7 +109,7 @@ footer{
     clear: both;
 }
 .footerUpperPrat{
-    display: flex;
+  
     align-items: center;
     justify-content:space-between;
     line-height: .5;
@@ -128,7 +138,7 @@ margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 .footerLowerPrat{
-    display: flex;
+   
     margin: auto;
     align-items: center;
     justify-content: center;
